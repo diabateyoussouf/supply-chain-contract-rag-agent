@@ -1,0 +1,22 @@
+# Environnement virtuel local
+venv/
+.venv/
+__pycache__/
+src/__pycache__/
+*.pyc
+
+# Clés d'API
+.env
+*.env
+
+# TOUTES les bases de données vectorielles (data et src)
+data/vectorstore_contracts/
+data/vectorstore_contracts_V2/
+src/chroma_db/
+db/
+
+# Documents personnels ou de données (On ne garde que le code)
+data/contracts/
+*.pdf
+src/*.pdf
+
