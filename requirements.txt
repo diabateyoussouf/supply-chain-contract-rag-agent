@@ -20,7 +20,7 @@ sentence-transformers==2.6.1
 
 transformers==4.40.2
 
+tiktoken==0.13.0
+
 numpy==2.4.6
 pandas==3.0.3
-
-tiktoken==0.13.0
