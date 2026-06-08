@@ -16,9 +16,9 @@ chromadb==1.5.9
 
 mistralai==2.4.9
 
-sentence-transformers==2.7.0
+sentence-transformers==2.6.1
 
-transformers==4.41.2
+transformers==4.40.2
 
 numpy==2.4.6
 pandas==3.0.3
