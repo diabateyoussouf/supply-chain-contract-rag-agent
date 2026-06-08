@@ -1,59 +1,29 @@
-# =========================
-# CORE APP
-# =========================
 streamlit==1.32.0
 
-# =========================
-# RAG CORE
-# =========================
 langchain==0.2.14
 langchain-community==0.2.12
-langchain-core==0.2.36
+langchain-core==0.2.38
 langchain-text-splitters==0.2.4
 
-# =========================
-# VECTOR DATABASE
-# =========================
 chromadb==0.5.5
 
-# =========================
-# EMBEDDINGS (IMPORTANT)
-# =========================
 sentence-transformers==2.7.0
 
-# =========================
-# LLM (si OpenAI ou Mistral)
-# =========================
 openai==1.40.0
 mistralai==0.4.2
 
-# =========================
-# DATA / NLP
-# =========================
 numpy==1.26.4
 pandas==2.2.2
 scikit-learn==1.5.1
 pypdf==4.3.1
 
-# =========================
-# UTILITIES
-# =========================
-tqdm==4.66.4
 python-dotenv==1.0.1
 requests==2.32.3
+tqdm==4.66.4
 
-# =========================
-# SAFE PROTOBUF (IMPORTANT FIX)
-# =========================
 protobuf==4.25.3
 
-# =========================
-# FIX HF / TOKENIZERS STABILITY
-# =========================
 transformers==4.41.0
 tokenizers==0.19.1
 
-# =========================
-# LOGGING UI
-# =========================
 rich==13.7.1
